@@ -14,9 +14,9 @@
 
 to keep it simple , i have also pushed the env file for my online postgres DB
 
-API Details
-POST /signup: Registers a new user with email and password.
-POST /login: Authenticates a user and returns a jwt token.
-POST /post: Allows authenticated users to post a new article.
-GET /posts: Retrieves all posts.
-GET /posts?author=userId: Retrieves posts by a specific author
+### API Details
+#### POST /signup: Registers a new user with email and password.
+#### POST /login: Authenticates a user and returns a jwt token.
+#### POST /post: Allows authenticated users to post a new article.
+#### GET /posts: Retrieves all posts.
+#### GET /posts?author=userId: Retrieves posts by a specific author
